@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bara_red"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/txt_Ano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Idade - Ano(s)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="ExtraText" />
+
+    <EditText
+        android:id="@+id/txt_Mes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Idade - Mes(es)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="ExtraText" />
+
+    <EditText
+        android:id="@+id/txt_Dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Idade - Dia(s)"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="ExtraText" />
+
+    <Button
+        android:id="@+id/btn_Converter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter para Dias"
+        android:textAlignment="center"
+        android:backgroundTint="@color/aqua"/>
+
+    <TextView
+        android:id="@+id/txt_Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"/>
+
+
+</LinearLayout>
